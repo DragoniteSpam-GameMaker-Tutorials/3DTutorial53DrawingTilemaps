@@ -69,14 +69,3 @@ for (var i = 0; i < n; i++) {
         y: random_range(0, 900),
     };
 }
-
-sun_x = 0;
-sun_y = 0;
-sun_z = 200;
-
-sun_dx = 1;
-sun_dy = 1;
-sun_dz = -1;
-
-shadowmap_size = 2048;
-shadowmap_surface = surface_create(shadowmap_size, shadowmap_size);
