@@ -2,7 +2,7 @@ function scr_draw_all_the_stuff() {
     gpu_set_tex_repeat(true);
     
     // Everything must be drawn after the 3D projection has been set
-    vertex_submit(ground, pr_trianglelist, sprite_get_texture(spr_grass, 0));
+    //vertex_submit(ground, pr_trianglelist, sprite_get_texture(spr_grass, 0));
     
     gpu_set_tex_repeat(false);
     

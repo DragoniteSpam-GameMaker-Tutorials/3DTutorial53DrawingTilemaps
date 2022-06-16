@@ -1,5 +1,7 @@
 /// @description Set up 3D things
 
+depth = 0;
+
 application_surface_draw_enable(false);
 surface_resize(application_surface, 1280, 720);
 
