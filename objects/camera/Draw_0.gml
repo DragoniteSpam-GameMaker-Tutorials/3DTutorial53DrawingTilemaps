@@ -20,6 +20,7 @@ camera_set_proj_mat(camera, proj_mat);
 camera_apply(camera);
 
 var layer_id = layer_get_id("Tiles_1");
+layer_set_visible(layer_id, false);
 var tilemap_id = layer_tilemap_get_id(layer_id);
 draw_tilemap(tilemap_id, 0, 0);
 
